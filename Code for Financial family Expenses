@@ -1,4 +1,3 @@
-1st CODE
 (function executeRule(current, previous /*null when async*/) {
 
 	var familyexpenses = newGlideRecord('u_family_expenses');
@@ -21,15 +20,3 @@
 
 	}
 })(current, previous);
-
-
-2nd CODE
-
-(function refineQuery(current, parent) {
-
-	// Add your code here, such as current.addQuery(field, value);
-	current.addquery('u_date',parent.u_date);
-	current.query();
-
-})(current, parent);
-
