@@ -19,10 +19,9 @@
 		newfamilyexpenses.u_expense_details += ">"+current.u_comments+":"+"RS."+current.u_expense+"/-";
 		newfamilyexpenses.insert();
 
-		
-
 	}
 })(current, previous);
+
 
 2nd CODE
 
